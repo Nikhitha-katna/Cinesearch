@@ -2,7 +2,7 @@ const searchBox = document.getElementById("searchBox");
 const searchBtn = document.getElementById("searchBtn");
 const result = document.getElementById("result");
 
-const API_URL = "http://www.omdbapi.com/?apikey=e1d21aae&t="; 
+const API_URL = "https://www.omdbapi.com/?apikey=e1d21aae&t="; 
 
 searchBtn.addEventListener("click", () => {
     const movieName = searchBox.value.trim();
